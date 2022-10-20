@@ -116,11 +116,6 @@ html,body{
   padding: 0px;
   margin: 0px;
 } */
-#sextion4 img{
-
-  margin-left: -250px;
-  
-}
 
 .head2{
   position:relative;
@@ -160,6 +155,7 @@ html,body{
   margin-top: 50px;
   margin-left: 165px;
   margin-right: 165px;
+  padding-bottom: 100px;
 }
 .readmore2{
   background: #fff;
