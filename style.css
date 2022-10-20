@@ -140,4 +140,20 @@ html,body{
 
 
 }
+.readit{
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  color:rgb(63, 62, 62);
+  font-size: 18px;
+  padding: 10px 30px;
+  text-decoration: none;
+  margin-left: 50px;
+  margin-top:50px;
+}
+.readit:hover{
+  background-color: rgb(205, 204, 204);
+  text-decoration: none;
+  color:rgb(63, 62, 62);
+}
 
