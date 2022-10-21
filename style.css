@@ -173,4 +173,76 @@ html,body{
   text-decoration: none;
   color:rgb(63, 62, 62);
 }
+.contact img{
+  width: 1570px;
+  height: 520px;
+  object-fit: cover;
+  margin-top: 40px;
+  margin-left: -170px;
+
+}
+.head3{
+  position: relative;
+  left: 480px;
+  top: -450px;
+  color: white;
+  text-shadow: 1px 1px black;
+  font-size: 40px;
+
+}
+.para3{
+  position: relative;
+  left: 35px;
+  top: -410px;
+  border-radius: 5px;
+  font-size: 18px;
+  text-align: center;
+
+
+}
+.contactform{
+  position: relative;
+  left: 300px;
+  top: -400px;
+  
+
+}
+#name{
+  background:rgba(242, 242, 242, 0.4);
+   border:none; 
+   color:black !important;
+   height: 35px;
+   padding-left:8px ;
+   border-radius: 3px;
+   line-height: 1.5;
+}
+#email{
+  background:rgba(242, 242, 242, 0.4);
+   border:none; 
+   color:black !important;
+   height: 35px;
+   padding-left:8px ;
+   border-radius: 3px;
+   line-height: 1.5;
+}
+#subject{
+  background:rgba(242, 242, 242, 0.4);
+   border:none; 
+   color:black !important;
+   height: 35px;
+   padding-left:8px ;
+   border-radius: 3px;
+   line-height: 1.5;
+}
+#comment{
+   background:rgba(242, 242, 242, 0.4);
+   border:none; 
+   position: relative;
+   left: 650px;
+   top: -520px;
+   width: 300px;
+  color: black;
+   border-radius: 3px;
+  
+}
 
