@@ -25,22 +25,23 @@
                   aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
+                <div class="collapse navbar-collapse"></div>
                 <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav">
                     <li class="nav-item ">
-                      <a class="nav-link btnn" href="index.html">Home <span class="sr-only">(current)</span></a>
+                      <a class="nav-link btnn" href="index.html">HomePage <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link btnn" href="#section2">About US</a>
+                      <a class="nav-link btnn" href="#section2">About Us</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link btnn" href="#section4">Services</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link btnn" href="#">External</a>
+                      <a class="nav-link btnn" href="#">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btnn" href="#">Contact Us</a>
+                        <a class="nav-link btnn" href="#">External</a>
                       </li>
       
                   </ul>
@@ -179,7 +180,7 @@
   </div>
   
 
-
+</div>
 <!-- section 6 ends -->
 <!-- section 7 starts -->
 <div id="section7">
@@ -194,23 +195,40 @@
     <br>
     Etiam a mi quis arcu varius condimentum.
   </p>
-  <div class="col-sm-6">
-  <div class=" d-flex flex-column contactform " style="width: 300px; height : 120px; justify-content : space-between;"> 
-    <input name="name" type="text" id="name" placeholder="Name">
-    <input name="email" type="email" id="email" placeholder="Email">
-    <input name="subject" type="text" id="subject" placeholder="Subject">
+  <div class="form">
+    <div class="col-sm-6">
+    <div class=" d-flex flex-column contactform " style="width: 350px; height : 120px; justify-content : space-between;">
+      <input name="name" type="text" id="name" placeholder="Name" style="color: black;">
+      <input name="email" type="email" id="email" placeholder="Email">
+      <input name="subject" type="text" id="subject" placeholder="Subject">
+    </div>
+    </div>
+    
+     <div class="col-sm-6" style="margin-top: -20px;">
+    <textarea name="message" rows="6" id="comment" placeholder="Your message here...">
+    </textarea>
+     </div>
   </div>
+  <a class="send" href="#">Send</a>
 </div>
 
-<div class="col-sm-6">
-  <textarea name="message" rows="6" id="comment" placeholder="Your message here...">
 
-  </textarea>
-</div>
-</div>
 
 <!-- section 7 ends  -->
-  
+<!-- end starts   -->
+<h5 class="head4">Use it free!</h5>
+<p class="para4">“Conquer is free Bootstrap template from templatemo website.
+<br>
+No backlink is required to use this layout.”
+</p>
+<div class="footer">
+  <hr>
+  <p class="foot">
+    Copyright © 2084 Your Company Name | Design: templatemo
+  </p>
+</div>
+
+
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
   integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

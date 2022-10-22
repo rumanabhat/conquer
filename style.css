@@ -4,7 +4,9 @@
     color: white !important;
     background-color: red;
 } */
-
+.menu{
+ 
+}
 
 html,body{
   margin: 0px;
@@ -27,15 +29,24 @@ html,body{
  
   color: #fff;
   font-size: 16px;
-  background-color:#4a5363;
+  font-weight: 100;
+  background-color:#383e48;
   margin: 10px 20px 10px 20px;
-  padding: 10px 10px 10px 10px;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  padding-top:12px !important ;
+  padding-bottom: 12px !important;
   text-align: center;
   text-decoration: none;
-  border: 1px solid white;
+  border: 0.1px solid white;
   text-shadow: 1px 1px white;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif!important;
+  letter-spacing: 0.1em;
+  box-shadow: #383e48;
 
-
+}
+.btnn:hover{
+  background-color:#3f444e
 }
 .conquer{
   position:relative;
@@ -174,7 +185,7 @@ html,body{
   color:rgb(63, 62, 62);
 }
 .contact img{
-  width: 1570px;
+  width: 1700px;
   height: 520px;
   object-fit: cover;
   margin-top: 40px;
@@ -183,27 +194,38 @@ html,body{
 }
 .head3{
   position: relative;
-  left: 480px;
+  left: 650px;
   top: -450px;
   color: white;
-  text-shadow: 1px 1px black;
+  text-shadow: 2px 2px black;
   font-size: 40px;
+  font-weight: 400;
 
 }
 .para3{
   position: relative;
-  left: 35px;
-  top: -410px;
+  left: 430px;
+  top: -430px;
   border-radius: 5px;
   font-size: 18px;
   text-align: center;
+  display: inline-block;
+  background:rgba(242, 242, 242, 0.4);
+  padding-top: 20px;
+  padding-left: 33px;
+  padding-bottom: 20px;
+  padding-right: 33px;
 
+
+}
+.form{
+  margin-left: 150px;
 
 }
 .contactform{
   position: relative;
-  left: 300px;
-  top: -400px;
+  left: 270px;
+  top: -420px;
   
 
 }
@@ -216,6 +238,9 @@ html,body{
    border-radius: 3px;
    line-height: 1.5;
 }
+#name:focus{
+  outline: none;
+}
 #email{
   background:rgba(242, 242, 242, 0.4);
    border:none; 
@@ -224,6 +249,7 @@ html,body{
    padding-left:8px ;
    border-radius: 3px;
    line-height: 1.5;
+   outline: none;
 }
 #subject{
   background:rgba(242, 242, 242, 0.4);
@@ -233,6 +259,9 @@ html,body{
    padding-left:8px ;
    border-radius: 3px;
    line-height: 1.5;
+   outline:none;
+
+   
 }
 #comment{
    background:rgba(242, 242, 242, 0.4);
@@ -240,9 +269,69 @@ html,body{
    position: relative;
    left: 650px;
    top: -520px;
-   width: 300px;
+   width: 338px;
+   height: 120px;
   color: black;
-   border-radius: 3px;
+   border-radius: 4px;
+   outline: none;
   
 }
+.send{
+  position: relative;
+  top: -500px;
+  left: 820px;
+  background-color: rgb(63, 62, 62);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  border-radius: 7px;
+  font-size: 20px;
+  border: 1px solid white;
+  text-decoration: none;
+  text-align: center;
+}
+.send:hover{
+  text-decoration: none;
+  cursor: pointer;
+  color:  rgb(63, 62, 62);
+  background-color: white;
+}
+/* .end{
+  margin-top: -400px;
+  margin-left: 500px
+}
+.endpara{
+  margin-top: -400px;
+  margin-left: 500px
+} */
 
+.head4{
+  margin-top: -400px;
+  margin-left: 650px;
+  font-style: italic;
+  color: grey;
+  font-size: 34px;
+  font-weight: lighter;
+  font-family:  "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.para4{
+  color: grey;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: -22px;
+  font-style: italic;
+}
+.footer{
+  margin-top: 100px;
+max-height: 10px;
+display: flex;
+flex-direction: column;
+}
+.foot{
+  margin-left: 555px;
+  font-size: 13px;
+  color: grey;
+}
